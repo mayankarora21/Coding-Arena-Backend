@@ -8,7 +8,7 @@ $config = array(
     "client_secret" => "c7c47d03ffc7969ccd9ed3bb39ce1581",
     'api_endpoint'=> 'https://api.codechef.com/',
     'access_token_endpoint'=> 'https://api.codechef.com/oauth/token',
-    'redirect_uri'=> 'http://localhost:3000'
+    'redirect_uri'=> 'https://codingarena21.herokuapp.com'
 );
 
 function generate_access_token($oauth_details){
